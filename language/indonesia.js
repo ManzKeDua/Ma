@@ -95,7 +95,7 @@ exports.UmurXReg = () =>{
 	return`Umur kamu terlalu tua, bukannya mati ehh malah main bot`
 	}
 exports.firstChat = (a, b, c) =>{
-	return`Selamat ${a} ${b} 🤗, saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
+	return`Ada yang bisa saya bantu?`
 	}
 exports.StartAbsen = () =>{
 	return`Mulai Absen`
@@ -724,13 +724,13 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 *📚 List-Menu Bot :*
 
 ╭─❒ 「 Bot Info 」 
-│○ !owner
-│○ !rules
-│○ !sc
-│○ !ping
-│○ !runtime
-│○ !botstatus
-╰❒ !donate
+│○ owner
+│○ rules
+│○ sc
+│○ ping
+│○ runtime
+│○ botstatus
+╰❒ donate
 
 
 ╭─❒ 「 Owner 」 
@@ -1717,7 +1717,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ Mhankbarbar
 │○ Nurutomo
 │○ Rashid
-│○ ZeeoneOfc
+│○ Humanz
 │○ Penyedia Module
 ╰❒ And All Support
     `
@@ -1735,7 +1735,7 @@ exports.rules = (prefix) => {
 ➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan.
 
 🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini bisa kalian dapatkan di YouTube ZEEONE OFC
+➡️ Script ini bisa kalian dapatkan di Akun Github humanz
 
 🗯️ Boleh saya menambah ke grup?
 ➡️ Untuk itu tergantung dari owner bot sendiri
@@ -1767,7 +1767,7 @@ exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Recode : https://github.com/OrochimaruBotz
 `
 }
 exports.tos = (ownernomer) => {
