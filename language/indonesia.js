@@ -27,12 +27,7 @@ exports.needReg = (a, b, c) =>{
 	return`🇲🇨 Daftar dulu bang
 
 Gini : #daftar nama|umur|gender|hobi
-Contoh : #daftar ${a}|18|cowo|Game
-
-🇺🇲 Please register first
-
-Like this : #register name|age|gender|hobby
-Example : #register ${a}|18|male|Games`
+Contoh : #daftar ${a}|18|cowo|Game`
 }
 exports.Nolimit = (prefix) =>{
 	return`Limit kamu hari ini telah habis ⚠️\n\nSilahkan beli limit dengan cara ketik ${prefix}buy atau ${prefix}buyall`
@@ -48,16 +43,7 @@ exports.ExReg = (c) =>{
 
 Gini : #daftar nama|umur|gender|hobi
 
-Contoh : #daftar ${a}|18|cowo|Game
-
-
-
-🇺🇲 Use the "|" sign as a barrier
-
-
-Like this : #register name|age|gender|hobby
-
-Example : #register ${a}|18|male|Games`
+Contoh : #daftar ${a}|18|cowo|Game`
 	}
 exports.DoneReg = () =>{
 	return`Kamu sudah terdaftar di database`
@@ -631,10 +617,10 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar`
+    return `*Bot Sedang Mengekstrak Data...*`
 }
 exports.ok = () => {
-    return `✅ Done.`
+    return `DONE`
 }
 
 exports.err = () => {
@@ -663,7 +649,7 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `[ ONLY OWNER ]`
 }
 
 exports.doneOwner = () => {
@@ -671,11 +657,11 @@ exports.doneOwner = () => {
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `[ GROUP ONLY ]`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `[ ONLY ADMIN ]`
 }
 
 exports.nhFalse = () => {
@@ -689,7 +675,7 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `[ YOU NOT ADMIN ]`
 }
 
 exports.adminAlready = () => {
@@ -697,7 +683,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `[ BOT ADMIN ONLY ]`
 }
 
 exports.received = (pushname) => {
@@ -724,59 +710,59 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 *📚 List-Menu Bot :*
 
 ╭─❒ 「 Bot Info 」 
-│○ owner
-│○ rules
-│○ sc
-│○ ping
-│○ runtime
-│○ botstatus
-╰❒ donate
+│○ {prefix}owner
+│○ {prefix}rules
+│○ {prefix}sc
+│○ {prefix}ping
+│○ {prefix}runtime
+│○ {prefix}botstatus
+╰❒ {prefix}donate
 
 
 ╭─❒ 「 Owner 」 
-│○ !setmenu [query]
-│○ !setmenu templateLocation
-│○ !setmenu templateTenor
-│○ !setmenu katalog
-│○ !setmenu katalog2
-│○ !setmenu list
-│○ !setwm packname|author
-│○ !sendsesi
-│○ !listpc
-│○ !listgc
-│○ !broadcast [text]
-│○ !bc [text]
-│○ !bcgc 
-│○ !bcimage
-│○ !bcaudio
-│○ !bcstiker
-│○ !bcvn
-│○ !bcvideo
-│○ !banuser
-│○ !unban
-│○ !banned
-│○ !listbanned
-│○ !block
-│○ !ublock
-│○ !listblock
-│○ !addpremium
-│○ !delpremium
-│○ !listpremium
-│○ !nsfw [on/off]
-│○ !mute [on/off]
-│○ !autoblok212 [on/off]
-│○ !banchat
-│○ !unbanchat
-│○ !autorespond [on/off]
-│○ !antiviewonce [on/off]
-│○ !autobio [on/off]
-│○ !join [link]
-│○ !self
-│○ !public [only bot]
-│○ !del [reply pesan bot]
-│○ !pppanjang
-│○ !setpppanjang
-╰❒ !setppbot [reply image]
+│○ {prefix}setmenu [query]
+│○ {prefix}setmenu templateLocation
+│○ {prefix}setmenu templateTenor
+│○ {prefix}setmenu katalog
+│○ {prefix}setmenu katalog2
+│○ {prefix}setmenu list
+│○ {prefix}setwm packname|author
+│○ {prefix}sendsesi
+│○ {prefix}listpc
+│○ {prefix}listgc
+│○ {prefix}broadcast [text]
+│○ {prefix}bc [text]
+│○ {prefix}bcgc 
+│○ {prefix}bcimage
+│○ {prefix}bcaudio
+│○ {prefix}bcstiker
+│○ {prefix}bcvn
+│○ {prefix}bcvideo
+│○ {prefix}banuser
+│○ {prefix}unban
+│○ {prefix}banned
+│○ {prefix}listbanned
+│○ {prefix}block
+│○ {prefix}ublock
+│○ {prefix}listblock
+│○ {prefix}addpremium
+│○ {prefix}delpremium
+│○ {prefix}listpremium
+│○ {prefix}nsfw [on/off]
+│○ {prefix}mute [on/off]
+│○ {prefix}autoblok212 [on/off]
+│○ {prefix}banchat
+│○ {prefix}unbanchat
+│○ {prefix}autorespond [on/off]
+│○ {prefix}antiviewonce [on/off]
+│○ {prefix}autobio [on/off]
+│○ {prefix}join [link]
+│○ {prefix}self
+│○ {prefix}public [only bot]
+│○ {prefix}del [reply pesan bot]
+│○ {prefix}pppanjang
+│○ {prefix}setpppanjang
+╰❒ {prefix}setppbot [reply image]
 
 ╭─❒ 「 Store Menu 」
 │○ !list
