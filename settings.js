@@ -35,7 +35,7 @@ global.email = "humanzbotz71@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone wib
 global.premium = ['6288804947282'] //premium user
-global.owner = ["6288804947282","6288804947282"] //ganti agar fitur owner bisa di gunakan
+global.owner = ['6288804947282'] //ganti agar fitur owner bisa di gunakan
 global.ownernomer = "6288804947282" // nomor wa kalian
 global.ownernomerr = "+6288804947282" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
@@ -74,7 +74,7 @@ global.rpg = {
       limit: '🎫',
       health: '❤️',
       exp: '✨',
-      money: '💹',
+      money: '💵',
       bank: '🏦',
       potion: '🥤',
       diamond: '💎',
