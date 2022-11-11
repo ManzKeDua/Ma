@@ -710,146 +710,146 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 *📚 List-Menu Bot :*
 
 ╭─❒ 「 Bot Info 」 
-│○ {prefix}owner
-│○ {prefix}rules
-│○ {prefix}sc
-│○ {prefix}ping
-│○ {prefix}runtime
-│○ {prefix}botstatus
-╰❒ {prefix}donate
+│○ ${prefix}owner
+│○ ${prefix}rules
+│○ ${prefix}sc
+│○ ${prefix}ping
+│○ ${prefix}runtime
+│○ ${prefix}botstatus
+╰❒ ${prefix}donate
 
 
 ╭─❒ 「 Owner 」 
-│○ {prefix}setmenu [query]
-│○ {prefix}setmenu templateLocation
-│○ {prefix}setmenu templateTenor
-│○ {prefix}setmenu katalog
-│○ {prefix}setmenu katalog2
-│○ {prefix}setmenu list
-│○ {prefix}setwm packname|author
-│○ {prefix}sendsesi
-│○ {prefix}listpc
-│○ {prefix}listgc
-│○ {prefix}broadcast [text]
-│○ {prefix}bc [text]
-│○ {prefix}bcgc 
-│○ {prefix}bcimage
-│○ {prefix}bcaudio
-│○ {prefix}bcstiker
-│○ {prefix}bcvn
-│○ {prefix}bcvideo
-│○ {prefix}banuser
-│○ {prefix}unban
-│○ {prefix}banned
-│○ {prefix}listbanned
-│○ {prefix}block
-│○ {prefix}ublock
-│○ {prefix}listblock
-│○ {prefix}addpremium
-│○ {prefix}delpremium
-│○ {prefix}listpremium
-│○ {prefix}nsfw [on/off]
-│○ {prefix}mute [on/off]
-│○ {prefix}autoblok212 [on/off]
-│○ {prefix}banchat
-│○ {prefix}unbanchat
-│○ {prefix}autorespond [on/off]
-│○ {prefix}antiviewonce [on/off]
-│○ {prefix}autobio [on/off]
-│○ {prefix}join [link]
-│○ {prefix}self
-│○ {prefix}public [only bot]
-│○ {prefix}del [reply pesan bot]
-│○ {prefix}pppanjang
-│○ {prefix}setpppanjang
-╰❒ {prefix}setppbot [reply image]
+│○ ${prefix}setmenu [query]
+│○ ${prefix}setmenu templateLocation
+│○ ${prefix}setmenu templateTenor
+│○ ${prefix}setmenu katalog
+│○ ${prefix}setmenu katalog2
+│○ ${prefix}setmenu list
+│○ ${prefix}setwm packname|author
+│○ ${prefix}sendsesi
+│○ ${prefix}listpc
+│○ ${prefix}listgc
+│○ ${prefix}broadcast [text]
+│○ ${prefix}bc [text]
+│○ ${prefix}bcgc 
+│○ ${prefix}bcimage
+│○ ${prefix}bcaudio
+│○ ${prefix}bcstiker
+│○ ${prefix}bcvn
+│○ ${prefix}bcvideo
+│○ ${prefix}banuser
+│○ ${prefix}unban
+│○ ${prefix}banned
+│○ ${prefix}listbanned
+│○ ${prefix}block
+│○ ${prefix}ublock
+│○ ${prefix}listblock
+│○ ${prefix}addpremium
+│○ ${prefix}delpremium
+│○ ${prefix}listpremium
+│○ ${prefix}nsfw [on/off]
+│○ ${prefix}mute [on/off]
+│○ ${prefix}autoblok212 [on/off]
+│○ ${prefix}banchat
+│○ ${prefix}unbanchat
+│○ ${prefix}autorespond [on/off]
+│○ ${prefix}antiviewonce [on/off]
+│○ ${prefix}autobio [on/off]
+│○ ${prefix}join [link]
+│○ ${prefix}self
+│○ ${prefix}public [only bot]
+│○ ${prefix}del [reply pesan bot]
+│○ ${prefix}pppanjang
+│○ ${prefix}setpppanjang
+╰❒ ${prefix}setppbot [reply image]
 
 ╭─❒ 「 Store Menu 」
-│○ !list
-│○ !addlist [key|respond]
-│○ !dellist [key]
-│○ !update [key|respond]
-│○ !store
-│○ !kali
-│○ !bagi
-│○ !tambah
-│○ !kurang
-│○ !kalkulator
-│○ !setproses
-│○ !updateproses
-│○ !cekproses
-│○ !delproses
-│○ !setdone
-│○ !updatedone
-│○ !cekdone
-│○ !deldone
-│○ !pay
-│○ !setcaptionpay
-│○ !setpaysewa
-│○ !proses
-╰❒ !done
+│○ ${prefix}list
+│○ ${prefix}addlist [key|respond]
+│○ ${prefix}dellist [key]
+│○ ${prefix}update [key|respond]
+│○ ${prefix}store
+│○ ${prefix}kali
+│○ ${prefix}bagi
+│○ ${prefix}tambah
+│○ ${prefix}kurang
+│○ ${prefix}kalkulator
+│○ ${prefix}setproses
+│○ ${prefix}updateproses
+│○ ${prefix}cekproses
+│○ ${prefix}delproses
+│○ ${prefix}setdone
+│○ ${prefix}updatedone
+│○ ${prefix}cekdone
+│○ ${prefix}deldone
+│○ ${prefix}pay
+│○ ${prefix}setcaptionpay
+│○ ${prefix}setpaysewa
+│○ ${prefix}proses
+╰❒ ${prefix}done
 
 ╭─❒ 「 Anonymous 」
-│○ !anonymous 
-│○ !start
-│○ !skip [daerah]
-╰❒ !stop [surah|ayat]
+│○ ${prefix}{prefix}anonymous 
+│○ ${prefix}start
+│○ ${prefix}skip [daerah]
+╰❒ ${prefix}stop [surah|ayat]
 
 
 ╭─❒ 「 Database 」 
-│○ !setcmd [reply stiker]
-│○ !delcmd [reply stiker]
-│○ !listcmd
-│○ !absen
-│○ !cekabsen
-│○ !deleteabsen
-│○ !absenstart
-│○ !addmsg [nama file]
-│○ !getmsg [nama file]
-│○ !listmsg
-╰❒ !delmsg [nama file]
+│○ ${prefix}setcmd [reply stiker]
+│○ ${prefix}delcmd [reply stiker]
+│○ l${prefix}listcmd
+│○ ${prefix}absen
+│○ ${prefix}cekabsen
+│○ ${prefix}deleteabsen
+│○ ${prefix}absenstart
+│○ ${prefix}addmsg [nama file]
+│○ ${prefix}getmsg [nama file]
+│○ ${prefix}listmsg
+╰❒ ${prefix}delmsg [nama file]
 
 ╭─❒ 「 Rpg Games 」
-│○ !adventure
-│○ !weekly
-│○ !use
-│○ !transfer
-│○ !slot
-│○ !shop
-│○ !pasar
-│○ !profile
-│○ !ojek
-│○ !open
-│○ !nguli
-│○ !narik
-│○ !nabung
-│○ !monthly
-│○ !mining
-│○ !merampok
-│○ !mancing
-│○ !kolam
-│○ !koboy
-│○ !kerja
-│○ !kandang
-│○ !judi
-│○ !inventory
+│○ ${prefix}adventure
+│○ ${prefix}weekly
+│○ ${prefix}use
+│○ ${prefix}transfer
+│○ ${prefix}slot
+│○ ${prefix}shop
+│○ ${prefix}pasar
+│○ ${prefix}profile
+│○ ${prefix}ojek
+│○ ${prefix}open
+│○ ${prefix}nguli
+│○ ${prefix}narik
+│○ ${prefix}nabung
+│○ ${prefix}monthly
+│○ ${prefix}mining
+│○ ${prefix}merampok
+│○ ${prefix}mancing
+│○ ${prefix}kolam
+│○ ${prefix}koboy
+│○ ${prefix}kerja
+│○ ${prefix}kandang
+│○ ${prefix}judi
+│○ ${prefix}inventory
 │○ !hourly
-│○ !fishop
-│○ !feed
-│○ !duel
-│○ !daily
-│○ !craft
-│○ !cooldown
-│○ !cook
-│○ !collect
-│○ !chop
-│○ !casino
-│○ !buy
-│○ !bank 
-│○ !bansos
-│○ !berdagang
-│○ !berkebon
-╰❒ !build
+│○ ${prefix}fishop
+│○ ${prefix}feed
+│○ ${prefix}duel
+│○ ${prefix}daily
+│○ ${prefix}craft
+│○ ${prefix}cooldown
+│○ ${prefix}cook
+│○ ${prefix}collect
+│○ ${prefix}chop
+│○ ${prefix}casino
+│○ ${prefix}buy
+│○ ${prefix}bank 
+│○ ${prefix}bansos
+│○ ${prefix}berdagang
+│○ ${prefix}berkebon
+╰❒ ${prefix}build
 
 ╭─❒ 「 Group 」 
 │○ !addsewa
@@ -899,49 +899,49 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ !hidetag [text]
 
 ╭─❒ 「 Anime 」 
-│○ !quotesanime
-│○ !anime [query]
-│○ !animeinfo
-│○ !manga [query]
-╰❒ !character [query]
+│○ ${prefix}quotesanime
+│○ ${prefix}anime [query]
+│○ ${prefix}animeinfo
+│○ ${prefix}manga [query]
+╰❒ ${prefix}character [query]
 
 ╭─❒ 「 Tag 」 
-│○ !stickertag
-│○ !videotag [query]
-│○ !vntag [query]
-╰❒ !imagetag [query]
+│○ ${prefix}stickertag
+│○ ${prefix}videotag [query]
+│○ ${prefix}vntag [query]
+╰❒ ${prefix}imagetag [query]
 
 ╭─❒ 「 Stalking 」 
-│○ !igstalk [username]
-│○ !ghstalk [username]
-╰❒ !ytstalk [channel]
+│○ ${prefix}igstalk [username]
+│○ ${prefix}ghstalk [username]
+╰❒ ${prefix}ytstalk [channel]
 
 
 ╭─❒ 「 Search 」 
-│○ !ytsearch [query]
-│○ !wallpaper [query]
-│○ !google [query]
-│○ !wikimedia [query]
-│○ !apksearch
-│○ !findapk
-│○ !hentai
-│○ !wattpad [query]
-│○ !webtoons [query]
-│○ !drakor [query]
-╰❒ !pinterest [query]
+│○ ${prefix}ytsearch [query]
+│○ ${prefix}wallpaper [query]
+│○ ${prefix}google [query]
+│○ ${prefix}wikimedia [query]
+│○ ${prefix}apksearch
+│○ ${prefix}findapk
+│○ ${prefix}hentai
+│○ ${prefix}wattpad [query]
+│○ ${prefix}webtoons [query]
+│○ ${prefix}drakor [query]
+╰❒ ${prefix}pinterest [query]
 
 
 ╭─❒ 「 Converter 」
-│○ !emoji [😭]
-│○ !emojimix [😭+💩]
-│○ !toaudio [video]
-│○ !tomp3 [video]
-│○ !tovn [video]
-│○ !stiker [reply image]
-│○ !tourl [image/video/stiker]
-│○ !togif [sticker]
-│○ !tomp4 [sticker]
-╰❒${prefix}toimg [reply sticker]
+│○ ${prefix}emoji [😭]
+│○ ${prefix}emojimix [😭+🤨]
+│○ ${prefix}toaudio [video]
+│○ ${prefix}tomp3 [video]
+│○ ${prefix}tovn [video]
+│○ ${prefix}stiker [reply image]
+│○ ${prefix}tourl [image/video/stiker]
+│○ ${prefix}togif [sticker]
+│○ ${prefix}tomp4 [sticker]
+╰❒ ${prefix}toimg [reply sticker]
 
 
 ╭─❒ 「 Image Effect 」 
